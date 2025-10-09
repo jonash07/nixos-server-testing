@@ -1,0 +1,19 @@
+{ ... }:
+
+{
+  imports = [
+    ./boot.nix
+    ./environment.nix
+    ./fonts.nix
+    ./graphics.nix
+    ./login_manager.nix
+    ./networking.nix
+    ./nix_settings.nix
+    ./programs.nix
+    ./security.nix
+    ./services.nix
+    ./system.nix
+    ./time.nix
+  ];
+}
+
