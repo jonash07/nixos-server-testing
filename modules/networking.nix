@@ -2,7 +2,7 @@
 
 {
   networking = {
-    hostName = "le_server";
+    hostName = "server";
     networkmanager.enable = true;
   };
 }

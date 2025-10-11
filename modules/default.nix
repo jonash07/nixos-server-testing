@@ -6,7 +6,6 @@
     ./environment.nix
     ./fonts.nix
     ./graphics.nix
-    ./login_manager.nix
     ./networking.nix
     ./nix_settings.nix
     ./programs.nix
@@ -14,6 +13,7 @@
     ./services.nix
     ./system.nix
     ./time.nix
+    ./users.nix
   ];
 }
 
