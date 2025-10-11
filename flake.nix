@@ -16,6 +16,7 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./modules
+          ./hardware-configuration.nix
         ];
       };
    };
