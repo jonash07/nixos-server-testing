@@ -16,6 +16,7 @@
     mtpfs
     librewolf
     btop-cuda
+    zfs
   ];
 }
 
