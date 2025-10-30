@@ -5,6 +5,7 @@
     ./boot.nix
     ./environment.nix
     ./fonts.nix
+    ./filesystems.nix
     ./graphics.nix
     ./networking.nix
     ./nix_settings.nix
