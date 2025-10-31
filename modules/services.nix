@@ -20,6 +20,7 @@
 
   services.samba-wsdd = {
     enable = true;
+    openFirewall = true;
     discovery = true;
   };
 
