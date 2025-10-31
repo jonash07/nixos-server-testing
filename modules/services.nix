@@ -20,10 +20,11 @@
     videoDrivers = [ "nvidia" ];
   };
 
+  services.samba-wsdd.enable = true;
+
   services.samba = {
     enable = true;
     nmbd.enable = true;
-    samba-wsdd.enable = true;
     settings = {
       Share = {
         browseable = "yes";
