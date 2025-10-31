@@ -35,6 +35,7 @@
         browseable = "yes";
         path = "/storage";
         writeable = "yes";
+        "read only" = "no";
         "guest ok" = "yes";
         public = "yes";
       };
