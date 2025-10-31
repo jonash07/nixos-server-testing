@@ -28,14 +28,15 @@
     enable = true;
     openFirewall = true;
     settings = {
+      global = {
+        "map to guest" = "bad password";
+      }
       public = {
         browseable = "yes";
-        comment = "test";
         path = "/storage";
         writeable = "yes";
         "guest ok" = "yes";
-        "create mask" = "0644";
-        "directory mask" = "0755";
+        public = "yes";
       };
     };
   };
