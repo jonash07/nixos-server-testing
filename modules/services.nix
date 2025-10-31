@@ -18,7 +18,10 @@
     videoDrivers = [ "nvidia" ];
   };
 
-  services.samba-wsdd.enable = true;
+  services.samba-wsdd = {
+    enable = true;
+    discovery = true;
+  };
 
   services.samba = {
     enable = true;
@@ -29,6 +32,7 @@
         comment = "test";
         path = "/storage";
         writeable = "yes";
+        "guest ok" = "yes";
       };
     };
   };
