@@ -28,14 +28,17 @@
     enable = true;
     openFirewall = true;
     settings = {
-      Share = {
+      global = {
+        security = "user";
+        "hosts allow" = "192.168.0.";
+        "guest account" = "nobody";
+      };
+      public = {
         browseable = "yes";
         comment = "test";
         path = "/storage";
         writeable = "yes";
         "guest ok" = "yes";
-        "force user" = "username";
-        "force group" = "groupname";
       };
     };
   };
