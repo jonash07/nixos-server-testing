@@ -30,7 +30,7 @@
     settings = {
       global = {
         "map to guest" = "bad password";
-      }
+      };
       public = {
         browseable = "yes";
         path = "/storage";
