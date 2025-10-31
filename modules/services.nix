@@ -34,6 +34,8 @@
         path = "/storage";
         writeable = "yes";
         "guest ok" = "yes";
+        "force user" = "username";
+        "force group" = "groupname";
       };
     };
   };
