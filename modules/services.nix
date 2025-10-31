@@ -31,7 +31,7 @@
       global = {
         "map to guest" = "bad password";
       };
-      public = {
+      Magazyn = {
         browseable = "yes";
         path = "/storage";
         writeable = "yes";
