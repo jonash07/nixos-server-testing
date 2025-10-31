@@ -11,8 +11,6 @@
     jack.enable = true;
   };
 
-  services.devmon.enable = true;
-
   services.openssh.enable = true;
 
   services.xserver = {
@@ -24,7 +22,7 @@
 
   services.samba = {
     enable = true;
-    nmbd.enable = true;
+    openFirewall = true;
     settings = {
       Share = {
         browseable = "yes";
