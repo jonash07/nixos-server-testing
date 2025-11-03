@@ -29,6 +29,7 @@
     openFirewall = true;
     settings = {
       global = {
+        "security" = "domain";
         "map to guest" = "bad password";
       };
       Magazyn = {
