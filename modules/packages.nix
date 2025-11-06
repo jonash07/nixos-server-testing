@@ -17,6 +17,7 @@
     librewolf
     btop-cuda
     btrfs-progs
+    pihole
   ];
 }
 
