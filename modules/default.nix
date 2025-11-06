@@ -7,6 +7,7 @@
     ./fonts.nix
     ./filesystems.nix
     ./graphics.nix
+    ./home_manager.nix
     ./networking.nix
     ./nix_settings.nix
     ./packages.nix
