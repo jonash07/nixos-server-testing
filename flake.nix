@@ -20,7 +20,7 @@
       nixosConfigurations.server = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [
-          inouts.home-manager-nixosModules.default
+          inputs.home-manager.nixosModules.default
           ./modules
           ./hardware-configuration.nix
         ];
