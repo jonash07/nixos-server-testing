@@ -8,6 +8,7 @@
     ./filesystems.nix
     ./graphics.nix
     ./home_manager.nix
+    ./jellyfin.nix
     ./networking.nix
     ./nix_settings.nix
     ./packages.nix
