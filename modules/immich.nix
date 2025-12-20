@@ -4,7 +4,7 @@
   services.immich = {
     enable = true;
     openFirewall = true;
-    mediaLocation = /external/storage/Zdjecia;
+    mediaLocation = "/external/storage/Zdjecia";
   };
 
 }
