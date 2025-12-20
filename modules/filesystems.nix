@@ -22,11 +22,11 @@
   systemd.automounts = [
     {
       where = "/external/backup";
-      wantedBy = [ "graphical.target" ];
+      wantedBy = [ "multi-user.target" ];
     }
     {
       where = "/external/storage";
-      wantedBy = [ "graphical.target" ];
+      wantedBy = [ "multi-user.target" ];
     }
   ];
 
