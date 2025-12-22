@@ -7,7 +7,6 @@
     ./fonts.nix
     ./filesystems.nix
     ./graphics.nix
-    ./home_manager.nix
     ./immich.nix
     ./jellyfin.nix
     ./networking.nix
