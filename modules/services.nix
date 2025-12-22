@@ -45,7 +45,7 @@
       };
       Zewnetrzny = {
         browseable = "yes";
-        path = "/storage";
+        path = "/external/storage";
         writeable = "yes";
         "read only" = "no";
         "guest ok" = "yes";
