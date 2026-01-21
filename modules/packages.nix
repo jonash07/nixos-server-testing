@@ -13,9 +13,9 @@
     ntfs3g
     exfat
     tree
-    librewolf
     btop-cuda
     btrfs-progs
+    firefox
   ];
 }
 
