@@ -13,11 +13,9 @@
     ntfs3g
     exfat
     tree
-    mtpfs
     librewolf
     btop-cuda
     btrfs-progs
-    pihole
   ];
 }
 
