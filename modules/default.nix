@@ -13,6 +13,7 @@
     ./nix_settings.nix
     ./packages.nix
     ./programs.nix
+    ./samba.nix
     ./security.nix
     ./services.nix
     ./system.nix
