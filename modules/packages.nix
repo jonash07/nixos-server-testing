@@ -17,6 +17,8 @@
     btrfs-progs
     firefox
 
+    xfburn
+  
   ];
 
 }
