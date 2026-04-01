@@ -16,7 +16,8 @@
     btop-cuda
     btrfs-progs
     firefox
-    brasero
+
   ];
+
 }
 

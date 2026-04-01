@@ -5,6 +5,7 @@
     enable = true;
     openFirewall = true;
     discovery = true;
+
   };
 
   services.samba = {
@@ -13,7 +14,9 @@
     settings = {
       global = {
         "map to guest" = "bad password";
+
       };
+
       Magazyn = {
         browseable = "yes";
         path = "/storage";
@@ -23,7 +26,9 @@
         public = "yes";
         "create mask" = "0757";
         "directory mask" = "0757";
+
       };
+
       Zewnetrzny = {
         browseable = "yes";
         path = "/external/storage";
@@ -33,8 +38,11 @@
         public = "yes";
         "create mask" = "0757";
         "directory mask" = "0757";
+
       };
+
     };
+
   };
 
   services.avahi.enable = true;
