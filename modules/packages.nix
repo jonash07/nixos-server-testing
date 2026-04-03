@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    vim
     fastfetch
     wl-clipboard
     lshw
@@ -9,14 +10,12 @@
     zip
     unzip
     ripgrep
-    neovim
     ntfs3g
     exfat
     tree
     btop-cuda
     btrfs-progs
     firefox
-
     xfburn
   
   ];
