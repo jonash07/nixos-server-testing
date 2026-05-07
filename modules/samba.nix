@@ -45,7 +45,5 @@
 
   };
 
-  services.avahi.enable = true;
-
 }
 
