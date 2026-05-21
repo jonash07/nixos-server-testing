@@ -17,7 +17,6 @@
     btrfs-progs
     firefox
     xfburn
-    starship
   
   ];
 
