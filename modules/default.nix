@@ -14,6 +14,7 @@
     ./nix_settings.nix
     ./packages.nix
     ./programs.nix
+    ./qbittorrent.nix
     ./samba.nix
     ./security.nix
     ./services.nix
