@@ -2,7 +2,7 @@
 
 {
   environment.variables = {
-    EDITOR = "nvim";
+    EDITOR = "vim";
 
   };
 
