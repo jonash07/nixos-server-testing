@@ -17,6 +17,7 @@
     btrfs-progs
     firefox
     nemo
+    alacritty
     xfburn
   
   ];
