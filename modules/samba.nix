@@ -18,8 +18,8 @@
       };
 
       Magazyn = {
-        browseable = "yes";
         path = "/storage";
+        browseable = "yes";
         writeable = "yes";
         "read only" = "no";
         "guest ok" = "yes";
@@ -30,8 +30,20 @@
       };
 
       Zewnetrzny = {
-        browseable = "yes";
         path = "/external/storage";
+        browseable = "yes";
+        writeable = "yes";
+        "read only" = "no";
+        "guest ok" = "yes";
+        public = "yes";
+        "create mask" = "0757";
+        "directory mask" = "0757";
+
+      };
+
+      Torrent = {
+        path = "/var/lib/qBittorrent/qBittorrent/downloads";
+        browseable = "yes";
         writeable = "yes";
         "read only" = "no";
         "guest ok" = "yes";
