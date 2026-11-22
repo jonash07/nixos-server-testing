@@ -17,6 +17,18 @@
 
       };
 
+      Wewnetrzny = {
+        path = "/internal";
+        browseable = "yes";
+        writeable = "yes";
+        "read only" = "no";
+        "guest ok" = "yes";
+        public = "yes";
+        "create mask" = "0757";
+        "directory mask" = "0757";
+
+      };
+
       Magazyn = {
         path = "/storage";
         browseable = "yes";

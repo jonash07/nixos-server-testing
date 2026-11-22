@@ -18,7 +18,7 @@
     firefox
     nemo
     alacritty
-    xfburn
+    fzf
   
   ];
 
